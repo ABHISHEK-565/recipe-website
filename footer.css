@@ -1,0 +1,8 @@
+.footer{
+    height: 1200px;
+    background-color: #222;
+    color: #f2f2f2;
+    height: inherit;
+    text-align: center;
+    padding: 10px;
+}

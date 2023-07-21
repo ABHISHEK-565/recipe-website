@@ -1,0 +1,72 @@
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    
+}
+.item{
+    border-bottom: 1px dotted #919191;
+}
+
+
+.contentbox{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+
+   
+   
+}
+
+.leftbox{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+}
+
+/* .leftbox{
+    font-size: 2rem;
+} */
+
+.rightbox img{
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    
+}
+
+h2{
+    color: #f2f2f2;
+    font-size: 64px;
+    
+}
+
+h3{
+    color: #3dea1a;
+}
+
+.Recipebox li{
+    color: #d7d7d7;
+    list-style-type: style num;
+    padding: 10px;
+
+}
+
+body{
+    background-color: #333;
+    color: white;
+}
+
+
+#myBtn{
+    height: 40px;
+    width: 120px;
+    align-items: center;
+    background-color: #3dea1a;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+
+}

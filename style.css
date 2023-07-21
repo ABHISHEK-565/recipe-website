@@ -1,0 +1,42 @@
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#logo{
+    font-family: cursive;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 14px 16px;
+    float: left;
+    color: #3dea1a;
+}
+
+.topnav{
+    background-color: #222;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    /* removes the underline in text */
+    text-decoration: none; 
+    font-family: sans-serif;
+    font-size: 17px;
+  }
+
+   /* Add a color to the active/current link */
+.topnav a.active {
+    
+    color: #3dea1a;
+  }
+
+
+  
